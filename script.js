@@ -73,12 +73,7 @@ document.getElementById("Police").addEventListener("click", function () {
     const onlyDate = now.toLocaleTimeString();
 
     li.innerHTML =
-      "<span>" +
-      "জাতীয় জরুরি সেবা<br/>999" +
-      "</span>" +
-      "<span>" +
-      onlyDate +
-      "</span>";
+      "<span>" + "পুলিশ<br/>999" + "</span>" + "<span>" + onlyDate + "</span>";
 
     callHistory.appendChild(li);
 
@@ -110,7 +105,7 @@ document.getElementById("Ambulance").addEventListener("click", function () {
 
     li.innerHTML =
       "<span>" +
-      "জাতীয় জরুরি সেবা<br/>999" +
+      "অ্যাম্বুলেন্স<br/>1994-999999" +
       "</span>" +
       "<span>" +
       onlyDate +
@@ -148,7 +143,7 @@ document
 
       li.innerHTML =
         "<span>" +
-        "জাতীয় জরুরি সেবা<br/>999" +
+        "নারী ও শিশু সহায়তা<br/>109" +
         "</span>" +
         "<span>" +
         onlyDate +
@@ -185,12 +180,7 @@ document
       const onlyDate = now.toLocaleTimeString();
 
       li.innerHTML =
-        "<span>" +
-        "জাতীয় জরুরি সেবা<br/>999" +
-        "</span>" +
-        "<span>" +
-        onlyDate +
-        "</span>";
+        "<span>" + "দুদক<br/>106" + "</span>" + "<span>" + onlyDate + "</span>";
 
       callHistory.appendChild(li);
 
@@ -224,7 +214,7 @@ document
 
       li.innerHTML =
         "<span>" +
-        "জাতীয় জরুরি সেবা<br/>999" +
+        "বিদ্যুৎ বিভ্রাট<br/>16445" +
         "</span>" +
         "<span>" +
         onlyDate +
@@ -260,7 +250,7 @@ document.getElementById("Brac").addEventListener("click", function () {
 
     li.innerHTML =
       "<span>" +
-      "জাতীয় জরুরি সেবা<br/>999" +
+      "ব্র্যাক<br/>16445" +
       "</span>" +
       "<span>" +
       onlyDate +
@@ -298,7 +288,7 @@ document
 
       li.innerHTML =
         "<span>" +
-        "জাতীয় জরুরি সেবা<br/>999" +
+        "বাংলাদেশ রেলওয়ে<br/>163" +
         "</span>" +
         "<span>" +
         onlyDate +
@@ -334,7 +324,7 @@ document.getElementById("Fire-Service").addEventListener("click", function () {
 
     li.innerHTML =
       "<span>" +
-      "জাতীয় জরুরি সেবা<br/>999" +
+      "ফায়ার সার্ভিস<br/>999" +
       "</span>" +
       "<span>" +
       onlyDate +
