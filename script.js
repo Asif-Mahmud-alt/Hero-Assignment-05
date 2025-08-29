@@ -69,7 +69,7 @@ document
 
 document.getElementById("Police").addEventListener("click", function () {
   if (callerCoin.innerText > 0) {
-    alert(" calling National Emergency 999...");
+    alert(" calling Police 999...");
     let availablveCoin = parseInt(callerCoin.innerText) - 20;
     callerCoin.innerText = availablveCoin;
 
@@ -100,7 +100,7 @@ document.getElementById("Police").addEventListener("click", function () {
 
 document.getElementById("Ambulance").addEventListener("click", function () {
   if (callerCoin.innerText > 0) {
-    alert(" calling National Emergency 999...");
+    alert(" calling Ambulance 1994-999999...");
     let availablveCoin = parseInt(callerCoin.innerText) - 20;
     callerCoin.innerText = availablveCoin;
 
@@ -138,7 +138,7 @@ document
   .getElementById("Women-Child-Helpline")
   .addEventListener("click", function () {
     if (callerCoin.innerText > 0) {
-      alert(" calling National Emergency 999...");
+      alert(" calling Women & Child Helpline 109...");
       let availablveCoin = parseInt(callerCoin.innerText) - 20;
       callerCoin.innerText = availablveCoin;
 
@@ -176,7 +176,7 @@ document
   .getElementById("Anti-Corruption")
   .addEventListener("click", function () {
     if (callerCoin.innerText > 0) {
-      alert(" calling National Emergency 999...");
+      alert(" calling Anti Corruption 106...");
       let availablveCoin = parseInt(callerCoin.innerText) - 20;
       callerCoin.innerText = availablveCoin;
 
@@ -209,7 +209,7 @@ document
   .getElementById("Electricity-Outage")
   .addEventListener("click", function () {
     if (callerCoin.innerText > 0) {
-      alert(" calling National Emergency 999...");
+      alert(" calling Electricity Outage 16216...");
       let availablveCoin = parseInt(callerCoin.innerText) - 20;
       callerCoin.innerText = availablveCoin;
 
@@ -245,7 +245,7 @@ document
 
 document.getElementById("Brac").addEventListener("click", function () {
   if (callerCoin.innerText > 0) {
-    alert(" calling National Emergency 999...");
+    alert(" calling Brac 16445...");
     let availablveCoin = parseInt(callerCoin.innerText) - 20;
     callerCoin.innerText = availablveCoin;
 
@@ -280,10 +280,10 @@ document.getElementById("Brac").addEventListener("click", function () {
 });
 
 document
-  .getElementById("Bangladesh Railway")
+  .getElementById("Bangladesh-Railway")
   .addEventListener("click", function () {
     if (callerCoin.innerText > 0) {
-      alert(" calling National Emergency 999...");
+      alert(" calling Bangladesh Railway 163...");
       let availablveCoin = parseInt(callerCoin.innerText) - 20;
       callerCoin.innerText = availablveCoin;
 
@@ -319,7 +319,7 @@ document
 
 document.getElementById("Fire-Service").addEventListener("click", function () {
   if (callerCoin.innerText > 0) {
-    alert(" calling National Emergency 999...");
+    alert(" calling Fire Service 999...");
     let availablveCoin = parseInt(callerCoin.innerText) - 20;
     callerCoin.innerText = availablveCoin;
 
