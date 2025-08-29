@@ -45,7 +45,7 @@
             <div
               class="bg-[#41ff6b1a] flex justify-center items-center rounded-[50px] sm:w-[120px] rounded-[50px] p-[12px] bg-[#41ff6b1a] flex justify-center items-center gap-2"
             >
-              <p class="font-extrabold text-l">100</p>
+              <p id="caller-coin" class="font-extrabold text-l">100</p>
               <img class="h-[30px] w-[30px]" src="./assets/coin.png" alt="" />
             </div>
             <div
@@ -94,9 +94,9 @@
             </div>
 
             <h2 class="font-bold text-xl mt-3">জাতীয় জরুরি সেবা</h2>
-            <p class="text-[#5C5C5C]">National Emergency</p>
+            <p class="text-[#5C5C5C] calling">National Emergency</p>
 
-            <p class="font-bold text-3xl mt-5">999</p>
+            <p class="font-bold text-3xl mt-5 calling">999</p>
             <p
               class="bg-[#f2f2f2] rounded-[9999px] w-[100px] pl-4 pr-4 pt-2 pb-2 mt-1"
             >
@@ -111,6 +111,7 @@
                 Copy
               </button>
               <button
+                id="call-emergency"
                 class="bg-[#00a63e] text-white w-[120px] h-[40px] mt-5 rounded-xl ml-2"
               >
                 <i class="fa-solid fa-phone"></i>
@@ -146,6 +147,7 @@
                 Copy
               </button>
               <button
+                id="Police"
                 class="bg-[#00a63e] text-white w-[120px] h-[40px] mt-5 rounded-xl ml-2"
               >
                 <i class="fa-solid fa-phone"></i>
@@ -181,6 +183,7 @@
                 Copy
               </button>
               <button
+                id="Fire-Service"
                 class="bg-[#00a63e] text-white w-[120px] h-[40px] mt-5 rounded-xl ml-2"
               >
                 <i class="fa-solid fa-phone"></i>
@@ -217,6 +220,7 @@
                 Copy
               </button>
               <button
+                id="Ambulance"
                 class="bg-[#00a63e] text-white w-[120px] h-[40px] mt-5 rounded-xl ml-2"
               >
                 <i class="fa-solid fa-phone"></i>
@@ -252,6 +256,7 @@
                 Copy
               </button>
               <button
+                id="Women-Child-Helpline"
                 class="bg-[#00a63e] text-white w-[120px] h-[40px] mt-5 rounded-xl ml-2"
               >
                 <i class="fa-solid fa-phone"></i>
@@ -287,6 +292,7 @@
                 Copy
               </button>
               <button
+                id="Anti-Corruption"
                 class="bg-[#00a63e] text-white w-[120px] h-[40px] mt-5 rounded-xl ml-2"
               >
                 <i class="fa-solid fa-phone"></i>
@@ -323,6 +329,7 @@
                 Copy
               </button>
               <button
+                id="Electricity-Outage"
                 class="bg-[#00a63e] text-white w-[120px] h-[40px] mt-5 rounded-xl ml-2"
               >
                 <i class="fa-solid fa-phone"></i>
@@ -358,6 +365,7 @@
                 Copy
               </button>
               <button
+                id="Brac"
                 class="bg-[#00a63e] text-white w-[120px] h-[40px] mt-5 rounded-xl ml-2"
               >
                 <i class="fa-solid fa-phone"></i>
@@ -393,6 +401,7 @@
                 Copy
               </button>
               <button
+                id="Bangladesh Railway"
                 class="bg-[#00a63e] text-white w-[120px] h-[40px] mt-5 rounded-xl ml-2"
               >
                 <i class="fa-solid fa-phone"></i>
@@ -410,11 +419,14 @@
               </p>
             </div>
             <button
+              id="clear-history"
               class="bg-[#00a63e] text-white p-2 pl-4 pr-4 h-[40px] rounded-[50px] font-se"
             >
               Clear
             </button>
           </div>
+
+          <ul id="call-history"></ul>
         </div>
       </div>
     </main>
