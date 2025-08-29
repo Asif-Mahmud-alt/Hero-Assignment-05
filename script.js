@@ -2,10 +2,25 @@ const heartBtn = document.querySelectorAll(".heart");
 const HeartCountField = document.getElementById("heart-count-field");
 for (btn of heartBtn) {
   btn.addEventListener("click", function () {
-    console.log("btn clicked");
     let count = parseInt(HeartCountField.innerText);
     count++;
     HeartCountField.innerText = count;
+  });
+}
+
+// copy section functionilites
+
+const copyBtn = document.querySelectorAll(".copy-btn");
+const copyCountField = document.getElementById("copy-count-field");
+
+for (btn of copyBtn) {
+  btn.addEventListener("click", function () {
+    let copyNumber = this.getAttribute("copy-number");
+    navigator.clipboard.writeText(copyNumber);
+    alert("copied:" + copyNumber);
+    let count = parseInt(copyCountField.innerText);
+    count++;
+    copyCountField.innerText = count;
   });
 }
 
